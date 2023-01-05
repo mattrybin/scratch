@@ -1,0 +1,11 @@
+{
+	"name": "Alpine",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"forwardPorts": [
+		3000,
+		6006
+	]
+	// "onCreateCommand": "pnpm install"
+}
