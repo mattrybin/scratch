@@ -1,0 +1,17 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mattrybin/scratch",
+  "author": "Matt Rybin <workmateuszrybin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "vitest": "^0.18.1",
+    "vite": "^3.2.3"
+  }
+}
